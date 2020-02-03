@@ -14,9 +14,9 @@ class MainActivity : AppCompatActivity() {
 
     fun showImage(view: View) = if (imageView2.visibility == View.GONE) {
         imageView2.visibility = View.VISIBLE
-        showOrHide.setText(" Click here for Hide my head ")
+        showOrHide.setText(" Hide my head 😉 ")
     } else {
         imageView2.visibility = View.GONE
-        showOrHide.setText(" Click here for Show my head ")
+        showOrHide.setText(" Show my head 🙃 ")
     }
 }
