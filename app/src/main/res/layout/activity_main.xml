@@ -69,6 +69,37 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/nickname_edit"
+                style="@style/NameStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/placeholder"
+                android:inputType="textPersonName"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/done_button"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/roboto"
+                android:text="@string/done"
+                android:textColorLink="#FF0000" />
+
+            <TextView
+                android:id="@+id/nickname_text"
+                style="@style/NameStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textview"
+                android:textAlignment="center"
+                android:background="@color/colorAccent"
+                android:paddingBottom="@dimen/small_padding"
+                android:visibility="gone" />
+
             <TextView
                 android:id="@+id/bio_text"
                 style="@style/NameStyle"
